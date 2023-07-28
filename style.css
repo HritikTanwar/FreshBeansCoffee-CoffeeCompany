@@ -1,0 +1,352 @@
+
+
+        /* * is known as Universal Selector which works on every element. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+#cursor{
+    height: 100px;
+    width: 100px;
+    z-index: 9;
+    background-color: rgba(213, 201, 201, 0.184);
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(30px);
+}
+#nav img{
+    height: 62px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+#nav{
+    height: 140px;
+    width: 100%;
+    padding: 0 100px;
+    position: fixed;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    z-index: 99;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+#main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+#page1{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#page1 h1{
+    font-size: 54px;
+    width: 55%;
+    font-weight: 600;
+}
+#page1 h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    position: relative;
+    font-weight: 600;
+    text-shadow: 4px 4px 8px  rgb(0, 0, 0);
+}
+
+#page1 h2::before{
+    content: "WELCOME TO THE FRESH BEANS COFFEE";
+    position: absolute;
+    color: black;
+    font-weight:900;
+    top: -2px;
+    left: -2px;
+    z-index: -1;
+}
+
+#page2{
+    height: 200vh;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    
+}
+.offers{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+}
+.offers img{
+    height: 550px;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 8px 2px 40px black;
+    transition: all 0.3s;
+   
+}
+.offers img:hover{
+    height: 562px;
+    width: 512px;
+    transform: rotate3d(1,0,1,20deg);
+}
+.Order{
+    height: 50px;
+    width: 140px;
+    border-radius: 14px;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: 100px;
+    border: none;
+    transition: all 0.3s;
+}
+.Order:hover{
+    background: #7F6852  ;
+    color: white;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px black;
+}
+.offers span{
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    width: 80%;
+    font-size: 30px;
+    padding: 0px 50px;
+}
+.offers span h2{
+    color: black;
+    font-weight: 400;
+    line-height: 60px;
+
+}
+.second-offers{
+    flex-direction: row-reverse;
+}
+.second-offers h2{
+    font-size: 39px;
+    position: relative;
+    right: 45px;
+}
+.second-offers .Order{
+    top: 80px;
+    right: 25px;
+}
+
+.Deals{
+    width: 100%;
+    height: 135vh;
+    text-align: center;
+}
+.Deals h1{
+    width: 600px;
+    font-size: 54px;
+    color: black;
+    position: relative;
+    top: 75px;
+    left: 30%;
+    text-align: center;
+}
+#deals-img{
+    width: 550px;
+    height: 850px;
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+    top: 80px;
+    display: flex;
+    overflow: hidden;
+}
+#deals-img img{
+    padding-left: 50px;
+    gap: 20px;
+    height: 650px;
+    width: 500px;
+    display: inline-block; 
+    animation:  slide 10s  infinite ;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translate(-100%);
+    }
+    100%{
+        transform: translate(-200%);
+    }
+}
+#page3{
+    height: 140vh;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.home-reads{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 50px;
+}
+.home-reads img{
+    height: 350px;
+    width: 550px;
+    border-radius: 12px;
+}
+
+.home-reads span{
+    position: relative;
+    bottom: 10px;
+    text-align: justify;
+}
+
+.home-reads span h1{
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: black;
+}
+.home-reads span p{
+    font-size: 18px;
+    margin-top: 15px;
+    width: 85%;
+    line-height: 28px;
+    color: black;
+}
+.second-read{
+    flex-direction: row-reverse;
+}
+.reading{
+    height: 45px;
+    width: 130px;
+    border-radius: 14px;
+    color: black;
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    border: none;
+    transition: all 0.3s;
+}
+.reading:hover{
+    background: #7F6852  ;
+    color: white;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px black;
+}
+.about-us{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 75px;
+}
+.about-us img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.about-us-text{
+    text-align: center;
+    width: 50%;
+    height: 220px;
+    
+}
+.about-us-text h3{
+    font-size: 54px;
+    font-weight: 900;
+    color: black;
+}
+.about-us-text p{
+    margin-top: 25px;
+    line-height: 28px;
+    font-size: 18px;
+    color: black;
+}
+.empty{
+    height: 80vh;
+}
+footer{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 250px;
+    gap: 300px;
+    background-color: #bc835c;
+}
+#footer-logo{
+    height: 92px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+footer .social-media{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social-media h4{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
+footer span{
+    text-align: center;
+    height: 80px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+footer span img{
+    height: 32px;
+    margin: auto;
+    border-radius: 50%;
+}
+footer span img:hover{
+    border: 3px solid #6d462c;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
