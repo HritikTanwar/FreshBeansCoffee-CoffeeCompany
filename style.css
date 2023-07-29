@@ -350,3 +350,235 @@ footer span img:hover{
     object-fit: cover;
     
 }
+
+.login-page{
+    width: 100%;
+    height: 120vh;
+    background-color: #bc835c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.login-page h1{
+    color: black;
+    position: relative;
+    buttons;
+}
+.login-box{
+    position: relative;
+    top: 80px;
+    width: 550px;
+    height: 80vh;
+    background-color: #E5DAC2;
+    border-radius: 14px;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    float: left;
+    padding: 0px 80px;
+}
+.login-box a:hover{
+    text-decoration: underline;
+    color:#bc835c;
+    font-size: 18px;
+}
+.first-page{
+    display: block;
+}
+.first-page #sign-up-btn{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    float: left;
+    padding: 0px 80px;
+}
+.first-page #sign-up-btn:hover{
+    text-decoration: underline;
+    color:#bc835c;
+    font-size: 18px;
+    cursor: pointer;
+}
+.user-info{
+    /* background-color: red; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.user-info p{
+    margin-top: 50px;
+    margin-right: 200px;
+    color: black;
+}
+.user-info input{
+    width: 375px;
+    height: 50px;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    padding: 0px 12px;
+    box-shadow: 2px 2px 12px #000;
+}
+.user-info input:focus{
+    border: 1px solid #7F6852;
+}
+.buttons a{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+.buttons a:hover{
+    text-decoration: underline;
+    color:#bc835c;
+    font-size: 20px;
+}
+.buttons p{
+    text-align: justify;
+    position: relative;
+    bottom: 25px;
+    right: 25px;
+    width: max-content;
+    height: 25px;
+    color: #000;
+}
+
+.login-box .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 80px;
+}
+.buttons button{
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    font-size: 18px;
+    border-radius: 14px;
+    width: 115px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    transition: all 0.3s;
+}
+.buttons button:hover{
+    background: #7F6852  ;
+    color: white;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px black;
+}
+.new-user-info{
+    /* background-color: red; */
+    display: none;
+    height: 75vh;
+}
+.new-user-info p{
+    text-align: center;
+    color: rgb(70, 69, 69);
+    width: 100%;
+    padding: 15px 10px;
+}
+.user-details{
+    position: relative;
+    top: 35px;
+    /* background-color: green; */
+    color: #000;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 20px;
+}
+.user-details label{
+    font-size: 22px;
+    color: black;
+}
+.user-details input{
+    width: 250px;
+    height: 50px;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    padding: 0px 12px;
+    box-shadow: 2px 2px 12px #000;
+}
+.label1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 40px;
+    width: 95%;
+    height: 70px;
+    /* background-color: #E5DAC2; */
+    gap: 130px;
+}
+.label2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 40px;
+    width: 95%;
+    gap: 10px;
+    height: 90px;
+    /* background-color: #ffffff; */
+}
+.label3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 40px;
+    width: 95%;
+    gap: 40px;
+    height: 90px;
+    /* background-color: #20c89e; */
+}
+.user-details p{
+    position: relative;
+    width: 45%;
+    text-align: left;
+    bottom: 55px;
+    right: 125px;
+    color: black;
+    font-size: 11px;
+    /* background-color: blue; */
+}
+.user-details button{
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    font-size: 18px;
+    border-radius: 14px;
+    width: 115px;
+    height: 50px;
+    bottom: 35px;
+    position: relative;
+    transition: all 0.3s;
+}
+.user-details button:hover{
+    background: #7F6852  ;
+    color: white;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px black;
+}
+.user-details .backbtn{
+    font-size: 16px;
+}
+.user-details .backbtn:hover{
+    color: #bc835c;
+    cursor: pointer;
+    text-decoration: underline;
+}

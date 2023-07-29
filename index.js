@@ -1,7 +1,4 @@
 
-
-
-
 gsap.to("#nav",{
     backgroundColor: "#333333",
     height: "70px",
@@ -54,3 +51,5 @@ gsap.from(".about-us img, .about-us-text",{
         scrub: 3
     }
 })
+
+
