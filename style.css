@@ -174,7 +174,7 @@ video{
     font-size: 54px;
     color: black;
     position: relative;
-    top: 75px;
+    top: 45px;
     left: 30%;
     text-align: center;
 }
@@ -194,7 +194,7 @@ video{
     height: 650px;
     width: 500px;
     display: inline-block; 
-    animation:  slide 10s  infinite ;
+    /* animation:  slide 10s  infinite ;
 }
 @keyframes slide{
     0%{
@@ -204,11 +204,11 @@ video{
         transform: translateX(0);
     }
     50%{
-        transform: translate(-100%);
+        transform: translateX(-100%);
     }
     100%{
-        transform: translate(-200%);
-    }
+        transform: translateX(-200%);
+    } */
 }
 #page3{
     height: 140vh;
@@ -305,6 +305,7 @@ video{
     height: 80vh;
 }
 footer{
+    min-width: 250px;
     height: 180px;
     width: 100%;
     display: flex;
@@ -581,4 +582,32 @@ footer span img:hover{
     color: #bc835c;
     cursor: pointer;
     text-decoration: underline;
+}
+
+
+#nav.links h4{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 5px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
 }

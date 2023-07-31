@@ -1,0 +1,345 @@
+@media screen and (max-width: 1200px) {
+    .home-reads {
+        margin: 55px 55px;
+    }
+
+    .home-reads img {
+        height: 250px;
+        width: 350px;
+    }
+
+    .home-reads span h1 {
+        font-size: 32px;
+    }
+
+    .home-reads span p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .Deals {
+        height: 90vh;
+    }
+    .Deals h1{
+        left: 20%;
+    }
+    #deals-img {
+        padding-top: 0px;
+        height: 570px;
+    }
+
+    #deals-img img {
+        height: 550px;
+    }
+
+    #page3 {
+        height: 95vh;
+    }
+
+    .about-us {
+        height: 40vh;
+        padding: 0px 45px;
+    }
+
+    .about-us img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .about-us-text {
+        width: 60%;
+        height: 240px;
+    }
+
+    .about-us-text h3 {
+        font-size: 35px;
+    }
+
+    .about-us-text p {
+        font-size: 15px;
+    }
+
+    footer {
+        height: 126px;
+        padding: 0px 107px;
+    }
+
+    #page2 {
+        height: 135vh;
+    }
+
+    .offers {
+        margin: 0px 0px 0px 39px;
+    }
+
+    .offers img {
+        height: 450px;
+    }
+
+    .offers span {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .offers span h2 {
+        font-size: 36px;
+    }
+
+    .second-offers {
+        position: relative;
+        top: 150px;
+        /* margin: 0px 15px; */
+    }
+
+    .second-offers span {
+        left: 50px;
+    }
+}
+
+@media only screen and (max-width: 778px){
+    .hamburger{
+        display: block;
+        position: relative;
+        left: 350px;
+    }
+    .hamburger.active-menu .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active-menu .bar:nth-child(1){
+        transform: translateY(10px) rotate(45deg);
+    }
+    .hamburger.active-menu .bar:nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+    }
+    .links{
+        position: fixed;
+        left: -100%;
+        width: 100%;
+        transition: 0.3s;
+        top: 70px;
+        text-align: center;
+        flex-direction: column;
+        background-color: rgb(51, 51, 51)
+    }
+    .links h4{
+        gap: 10px;
+    }
+    .links.active-menu{
+        left: 0;
+       
+    }
+    .Deals{
+        overflow: hidden;
+        height: 105vh;
+    }
+    .Deals h1{
+        font-size: 28px;
+        width: 320px;
+        left: 24%;
+    }
+    footer{
+        padding: 0px;
+        gap: 100px;
+        justify-content: center;
+    }
+    #footer-logo{
+        height: 62px;
+        width: 62px;
+    }
+    #page1{
+        height: 75vh;
+    }
+    #page1 h1{
+        font-size: 44px;
+        width: 85%;
+    }
+    #page1 h2{
+        font-size: 24px;
+    }
+    #page2{
+        height: 275vh;
+    }
+    .offers{
+        flex-direction: column;
+    }
+    .offers img{
+        width: 300px;
+    }
+    .offers img:hover{
+        width: 320px;
+    }
+    .offers span h2{
+        margin-top: 30px;
+    }
+    .Order{
+        top: 65px;
+    }
+    #page3{
+        height: 150vh;
+    }
+    .home-reads{
+        flex-direction: column;
+        margin: 0px 0px 0px 15px;
+        height: 65vh;
+
+    }
+    .home-reads img{
+        width: 390px;
+    }
+    .home-reads span{
+        height: 40vh;
+    }
+    .home-reads span p{
+        text-align: center;
+        width: 100%;
+    }
+    .home-reads span h1{
+        text-align: center;
+    }
+    .reading{
+        left: 40%;
+    }
+    .second-read{
+        margin-top: 100px;
+    }
+    .about-us-text {
+        width: 380px;
+        height: 312px;
+    }
+    .about-us{
+        flex-direction: column-reverse;
+        height: 115vh;
+        justify-content: space-evenly;
+    }
+    .about-us #about-img2{
+        position: relative;
+        top: 30px;
+    }
+    .about-us #about-img1{
+        bottom: 60px;
+        position: relative;
+    }
+    #deals-img{
+        flex-direction: column;
+        gap: 15px;
+        height: 365px;
+        width: 400px;
+        top: 115px;
+        left: 25px;
+    }
+    #deals-img img{
+        padding-left: 50px;
+        gap: 20px;
+        height: 350px;
+        width: 300px;
+        display: inline-block; 
+        animation:  slideY 10s  infinite ;
+    }
+    @keyframes slideY{
+        0%{
+            transform: translateY(0);
+        }
+        10%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-100%);
+        }
+        100%{
+            transform: translateY(-200%);
+        }
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .hamburger{
+        left: 100px;
+    }
+    #nav{
+        padding: 0 0px 0px 20px;
+    }
+    #page1 h1{
+        font-size: 28px;
+    }
+    #page1 h2{
+        font-size: 14px;
+    }
+    #page2{
+        height: 220vh;
+    }
+    .offers img{
+        width: 235px;
+        height: 350px;
+    }
+    .offers span h2{
+        font-size: 24px;
+        line-height: 34px;
+        right: 11px;
+    }
+    .second-offers span {
+        left: 13px;
+    }
+    .Deals{
+        height: 85vh;
+    }
+    .Deals h1 {
+        font-size: 22px;
+        width: 250px;
+        left: 14%;
+    }
+    #deals-img{
+        margin: 0;
+        left: 15%;
+        width: 100%;
+        height: 227px;
+    }
+    #deals-img img{
+        height: 226px;
+        width: 200px;
+    }
+    #page3{
+        height: 135vh;
+    }
+    .home-reads img {
+        width: 225px;
+    }
+    .home-reads span h1 {
+        font-size: 20px;
+    }
+    .home-reads span p {
+        font-size: 11px;
+        line-height: 18px;
+    }    
+    .reading {
+        left: 30%;
+        height: 36px;
+        width: 105px;
+    }
+    .about-us img {
+        height: 108px;
+    }
+    .about-us{
+        height: 85vh;
+    }
+    .about-us-text {
+        width: 100%;
+    }
+    .about-us-text p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .about-us-text h3 {
+        font-size: 24px;
+    }
+    .about-us #about-img2 {
+        top: 50px;
+    }
+    .about-us #about-img1 {
+        bottom: 150px;
+    }
+    footer {
+        flex-direction: column;
+        height: 194px;
+        gap: 2px;
+    }
+}

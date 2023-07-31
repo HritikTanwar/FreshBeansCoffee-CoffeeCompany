@@ -53,3 +53,11 @@ gsap.from(".about-us img, .about-us-text",{
 })
 
 
+const hamburger = document.querySelector('.hamburger')
+        const Links = document.querySelector('.links')
+    
+        hamburger.addEventListener('click', () =>{
+            hamburger.classList.toggle("active-menu")
+            Links.classList.toggle("active-menu")
+        })
+
