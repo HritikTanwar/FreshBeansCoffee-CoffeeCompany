@@ -33,4 +33,12 @@ BackBtn.addEventListener('click', function(){
     NewUser.style.display = "none"
 })
 
+const hamburger = document.querySelector('.hamburger')
+        const Links = document.querySelector('.links')
+    
+        hamburger.addEventListener('click', () =>{
+            hamburger.classList.toggle("active-menu")
+            Links.classList.toggle("active-menu")
+        })
+
 
