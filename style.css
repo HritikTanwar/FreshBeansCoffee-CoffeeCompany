@@ -643,8 +643,15 @@ footer span img:hover{
 }
 .make-meal h2{
     position: relative;
-    top: 17%;
+    top: 14%;
     font-size: 42px;
+    color: #000;
+    font-weight: 400;
+}
+.make-meal p{
+    position: relative;
+    top: 16%;
+    font-size: 18px;
     color: #000;
     font-weight: 400;
 }
